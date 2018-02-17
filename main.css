@@ -351,11 +351,25 @@ h2
 	color: black;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 100px;
 	width: 1000px;
 	text-align: left; 
-	padding: 0;
+	padding-left: 50px;
 }
 .kontakt h1
 {
 	color: black;
+}
+#map {
+	width: 100%;
+	height: 400px;
+	background-color: grey;
+  }
+
+  @media only screen and (max-width: 720px) 
+{
+	.east {display: none;}
+	.logo{display: none;}
+	.author{display: block; text-align: left; margin-left:20px; }
+	.test{text-align:left;margin-left:20px; }
 }
